@@ -5,23 +5,25 @@ module.exports = {
   content: ['*'],
   theme: {
     extend: {
-      color: {
-        'color-primary': '#01051e',
-        'color-primary-light': '#020726',
-        'color-primary-dark': '#010417',
-        'color-secendery': '#ff7d3d',
-        'color-gray': '#333',
-        'color-white': '#fff',
-        'color-blod': '#a427df',
-      }
+      
     },
-    Container: {
+    container: {
       center: true,
       padding: {
         DEFAULT: '20px',
         md: '50px',
       }
-    }
+    },
+    colors : {
+      'color-primary': 'rgba(77, 107, 185, 1)',
+      'color-gray': 'rgba(79, 79, 79, 1)',
+      'color-gray-dark': 'rgba(51, 51, 51, 1)',
+      'color-white': 'rgba(255, 255, 255, 1)',
+      'color-yellow': 'rgb(240,230,140)',
+      'color-gray-light': '#F1F1F1',
+      'color-sky-light': '#9FB1DE',
+      'color-black-light': '#2D3751',
+    },
   },
   plugins: [],
 }

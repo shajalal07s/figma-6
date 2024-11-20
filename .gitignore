@@ -1,2 +1,4 @@
-node_modules
-package-lock.json
+# Node_Modules
+node_modules/
+
+package-lock.json/
